@@ -552,6 +552,30 @@
 
 /* add media query */
 
+@media only screen and (max-width:950px){
+
+
+#Location p
+{
+   
+    margin-left: 50%;
+   
+}
+.Bank_text h3
+{
+   
+   
+    margin-left: 5%;
+}
+#submit
+{
+   margin-left: 60%;
+  
+
+}
+
+}
+
 @media only screen and (max-width:950px)
 {
     #Banner .banner_text .para2
@@ -635,6 +659,10 @@
     {
         margin-right: 17%;
     }
+    #Last .fa-whatsapp
+{
+    margin-left: 70%;
+}
 }
 
 @media only screen and (max-width:400px){
