@@ -575,6 +575,22 @@
 }
 
 }
+@media only screen and (max-width:1200px){
+
+    #Location p
+{
+   
+    margin-left: 60%;
+   
+}
+#submit
+{
+   margin-left: 70%;
+   
+
+}
+
+}
 
 @media only screen and (max-width:950px)
 {
@@ -635,11 +651,11 @@
 {
    
     width: 350px;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 #Location p
 {
-    width: 100%;
+    width: 95%;
     margin-left: 0%;
     text-align: center;
     padding: 0px 10px;
