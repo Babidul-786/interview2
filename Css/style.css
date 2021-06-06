@@ -1,0 +1,711 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#Banner
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Banner .banner_text
+{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    top: 45%;
+    text-align: center;
+}
+#Banner .banner_text p
+{
+    font-size: 21px;
+
+}
+.banner_text .para1
+{
+    margin-left: 12%;
+}
+#Banner .banner_text hr
+{
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    background: #fff;
+}
+#Banner .banner_text .para2
+{
+    margin-right: 47.5%;
+}
+#Banner .banner_text span
+{
+    background: orange;
+}
+
+
+/* introduce starts */
+
+#Introduce
+{
+    width: 100%;
+    background: linen;
+    margin-top: 20px;
+}
+
+#Introduce .introduce_text
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+
+#Introduce .introduce_text span
+{
+    background: orange;
+    padding: 5px;
+    margin: 10px;
+}
+
+#Introduce .orange_2
+{
+    padding: 25px 10px;
+}
+
+#Introduce .orange_2 i
+{
+    color: darkorange;
+    font-weight: bold;
+   
+}
+
+/* introduce ends */
+
+/* High section starts */
+
+#High
+{
+    width: 100%;
+    height:auto;
+    background-image: url(../image/About.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#High h1
+{
+    font-weight: bold;
+    padding: 25px 0px;
+   
+}
+.underline{
+    text-decoration: underline;
+}
+
+.high_text
+{
+    padding: 25px 0px;
+}
+
+#High .high_text h1
+{
+    color: orange;
+}
+#High .high_text .fa-square
+
+{
+    color: orange;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+#High .high_text img
+{
+    width: 95%;
+}
+
+/* High section ends */
+
+.heading
+{
+    position: relative;
+    margin-left: 60px;
+}
+
+.heading::before
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: darkorange;
+    left: 25%;
+    position: absolute;
+    bottom: 18px;
+}
+
+.heading_2
+
+{
+    position: relative;
+    margin-left: 60px;
+}
+
+.heading_2::after
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: darkorange;
+    right: 25%;
+    position: absolute;
+    bottom: 18px;
+}
+
+.heading_3::before
+{
+    left: 20%;
+}
+
+.heading_4::after
+{
+    right:20%;
+}
+
+
+/* Bank section starts */
+
+#Bank
+{
+   margin-top: 40px;
+}
+
+#Bank_img
+{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../image/profession.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Bank_text
+{
+    width: 70% ;
+    background: #fff;
+    position: relative;
+    left:6%;
+    top: 20%;
+    bottom: 7%;
+   padding: 25px 10px;
+
+}
+
+.Bank_text h3
+{
+    background: orange;
+    width: 300px;
+    text-align: center;
+    padding: 4px;
+    margin-left: 80%;
+}
+
+.Bank_text p
+{
+    line-height: 24px;
+}
+
+/* location starts */
+
+#Location h2
+{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#Location p
+{
+    width: 400px;
+    margin-left: 70%;
+    padding-right: 20px;
+}
+
+#Map
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.Map_section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+   
+}
+.Map_section .Key_1
+{
+    width: 31%;
+   
+}
+.Map_section .Key_1 span
+{
+    padding-left: 50px;
+}
+.Key_2
+{
+    margin-top: 3%;
+}
+
+.Map_section .Key_3
+{
+    background: lightgrey;
+   
+}
+.Map_section .Key_3 h2
+{
+    font-weight: bold;
+    padding-top: 5px;
+}
+.Map_section .Key_3 p
+{
+    padding: 5px 5px;
+}
+
+/* gallery starts */
+
+#Gallery
+{
+    width: 100%;
+    background: gainsboro;
+}
+
+
+.Gallery_images
+{
+    padding: 30px 0px;
+}
+
+
+#Gallery .Gallery_images img
+{
+    width: 100%;
+}
+
+#Gallery .Gallery_images p
+{
+    padding-top: 7px;
+    font-size: 19px;
+}
+
+.Gallery_2 img
+{
+    width: 100%;
+}
+.Gallery_2 p
+{
+    padding-top: 7px;
+    font-size: 19px;
+}
+
+/* specification starts */
+
+#specification
+{
+    width: 100%;
+    background: lightgrey;
+    padding-bottom: 20px;
+}
+
+
+
+.specification_had
+{
+    padding: 25px 0px;
+}
+
+#specification img
+{
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.background_color
+{
+    background: darkgrey;
+    margin-bottom: 5px;
+}
+.background_color h5
+{
+    margin-top: 15%;
+}
+
+/* stracture */
+
+#stracture
+{
+    width: 100%;
+    background: lightgrey;
+    padding-bottom: 20px;
+}
+
+ #stracture .fa
+{
+    font-size: 55px;
+    color: orange;
+}
+ #stracture h3
+{
+    padding-top: 22px;
+}
+
+/* Plan */
+
+#Plan
+{
+    width: 100%;
+    background:rgb(236, 230, 218);
+}
+
+#Plan h5
+{
+    padding-top: 8px;
+}
+
+
+#Plan hr
+{
+    background: grey;
+}
+
+#Plan .right
+{
+    margin-left: 92%;
+    font-weight: bold;
+}
+
+.Download
+{
+    padding-bottom: 40px;
+}
+.Download img
+{
+    width: 100%;
+}
+#Plan  .Download_top
+{
+    margin-top: 10%;
+}
+
+.btn_1
+{
+   
+    height: 40px;
+    border: 1px solid #000;
+    padding: 6px 60px;
+    margin-top: 20px;
+}
+
+#Subham
+{
+    width: 100%;
+    background: lightgrey;
+    padding-bottom: 30px;
+}
+
+.Subham_text
+{
+    background: #fff;
+    position: relative;
+    top: 30px;
+    padding-bottom: 20px;
+}
+
+.Subham_text .logo
+{
+    font-size: 60px;
+    color: rgb(151, 88, 12);
+    font-weight: bold;
+}
+
+.Subham_text h1
+{
+    font-weight: bold;
+}
+
+/* form */
+
+#form
+{
+    width: 100%;
+    background: darkorange;
+    padding: 40px 0px;
+}
+#form h1
+{
+    color: #fff;
+    width: 300px;
+    padding-top: 30%;
+}
+#form .Contact
+{
+    background: #fff;
+    padding: 15px 10px;
+}
+#Enquery
+{
+    padding-left: 47%;
+    color: #000;
+    font-size: 22px;
+   margin-top: 10px;
+}
+
+#form .Contact textarea
+{
+    width: 100%;
+    height: 130px;
+    padding: 7px;
+   
+}
+
+#submit
+{
+   margin-left: 78.5%;
+   border: 1px solid #000;
+   padding: 5px 30px;
+
+}
+
+/* Footer  */
+#Footer .logo
+{
+    font-size: 60px;
+    color: rgb(151, 88, 12);
+    font-weight: bold;
+}
+
+#Footer h1
+{
+    font-weight: bold;
+}
+
+#Footer .add_boder
+{
+    padding: 30px 25px;
+    border-left: 1px dotted grey ;
+    border-right: 1px dotted grey ;
+}
+#Footer .add_boder_2
+{
+    border-right: 1px dotted grey ;
+    padding-left: 15px;
+}
+#Footer .add_boder h6
+{
+    text-decoration: underline;
+}
+#Footer a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+/* last */
+
+#Last
+{
+    width: 100%;
+    background: lightgrey;
+   
+}
+#Last p
+{
+    padding-top: 11px;
+}
+#Last span
+{
+    color: orange;
+
+}
+
+#Last .fa-whatsapp
+{
+  
+    margin-left: 98%;
+   background: green;
+   color: #fff;
+   padding: 10px;
+   border-radius: 50%;
+}
+
+/* add media query */
+
+@media only screen and (max-width:950px)
+{
+    #Banner .banner_text .para2
+    {
+        margin-right: 30%;
+    }
+    #Introduce .introduce_text .orange p
+    {
+        line-height: 42px;
+    }
+
+    .heading::before
+{
+
+    display: none;
+}
+
+
+
+.heading_2::after
+{
+    display: none;
+}
+
+}
+
+
+@media only screen and (max-width:800px) {
+    .Map_section
+{
+   flex-direction: column;
+   
+}
+.Map_section .Key_1
+{
+    width: 95%;
+    text-align: center;
+   
+}
+.Map_section .Key_1 span
+{
+    padding-left: 10px;
+}
+
+#Bank_img
+{
+   height: auto;
+}
+
+.Bank_text
+{
+    width: 90% ;
+    background: lightgrey;
+}
+
+.Bank_text h3
+{
+   
+    width: 350px;
+    margin-left: 2%;
+}
+#Location p
+{
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    padding: 0px 10px;
+}
+#Footer .add_boder
+{
+   border: none;
+}
+#Footer .add_boder_2
+{
+   border: none;
+}
+}
+@media only screen and (max-width:720px)
+{
+    #Banner .banner_text .para2
+    {
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width:400px){
+   
+    #Banner .banner_text
+{
+    width: 95%;
+    top: 28%;
+}
+
+   
+    .Bank_text h3
+{
+   
+    width: 280px;
+    margin-left: 2%;
+    font-size: 22px;
+    margin-left: 0%;
+}
+#Banner .banner_text .para2
+{
+    margin-right: 2%;
+}
+
+.high_text
+{
+    padding: 20px 10px;
+}
+
+#form h1
+{
+    padding-top: 5%;
+}
+
+
+#submit
+{
+   margin-left: 60%;
+   border: 1px solid #000;
+   padding: 5px 30px;
+
+}
+
+#Plan .right
+{
+    margin-left: 70%;
+   
+}
+
+/* Footer  */
+#Footer .logo
+{
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+#Footer .add_boder
+{
+   border: none;
+}
+#Footer .add_boder_2
+{
+   border: none;
+}
+#Last .fa-whatsapp
+{
+  
+    margin-left: 1%;
+   margin-bottom: 7px;
+
+}
+
+}
