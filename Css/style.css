@@ -552,45 +552,46 @@
 
 /* add media query */
 
+@media only screen and (max-width:1200px){
+
+        #Location p
+    {
+
+        margin-left: 60%;
+
+    }
+    #submit
+    {
+    margin-left: 70%;
+
+
+    }
+
+    }
+
 @media only screen and (max-width:950px){
 
 
-#Location p
-{
-   
-    margin-left: 50%;
-   
-}
-.Bank_text h3
-{
-   
-   
-    margin-left: 5%;
-}
-#submit
-{
-   margin-left: 60%;
-  
-
-}
-
-}
-@media only screen and (max-width:1200px){
-
     #Location p
-{
-   
+    {
+    
+        margin-left: 50%;
+    
+    }
+    .Bank_text h3
+    {
+    
+    
+        margin-left: 5%;
+    }
+    #submit
+    {
     margin-left: 60%;
-   
-}
-#submit
-{
-   margin-left: 70%;
-   
+    
 
-}
+    }
 
-}
+    }
 
 @media only screen and (max-width:950px)
 {
@@ -604,150 +605,149 @@
     }
 
     .heading::before
-{
+    {
 
-    display: none;
-}
+        display: none;
+    }
 
+    .heading_2::after
+    {
+        display: none;
+    }
 
-
-.heading_2::after
-{
-    display: none;
-}
-
-}
+    }
 
 
 @media only screen and (max-width:800px) {
     .Map_section
-{
-   flex-direction: column;
-   
-}
-.Map_section .Key_1
-{
-    width: 95%;
-    text-align: center;
-   
-}
-.Map_section .Key_1 span
-{
-    padding-left: 10px;
-}
+    {
+    flex-direction: column;
+    
+    }
+    .Map_section .Key_1
+    {
+        width: 95%;
+        text-align: center;
+    
+    }
+    .Map_section .Key_1 span
+    {
+        padding-left: 10px;
+    }
 
-#Bank_img
-{
-   height: auto;
-}
+    #Bank_img
+    {
+    height: auto;
+    }
 
-.Bank_text
-{
-    width: 90% ;
-    background: lightgrey;
-}
+    .Bank_text
+    {
+        width: 90% ;
+        background: lightgrey;
+    }
 
-.Bank_text h3
-{
-   
-    width: 350px;
-    margin-left: 3%;
-}
-#Location p
-{
-    width: 95%;
-    margin-left: 0%;
-    text-align: center;
-    padding: 0px 10px;
-}
-#Footer .add_boder
-{
-   border: none;
-}
-#Footer .add_boder_2
-{
-   border: none;
-}
-}
-@media only screen and (max-width:720px)
-{
+    .Bank_text h3
+    {
+    
+        width: 350px;
+        margin-left: 3%;
+    }
+    #Location p
+    {
+        width: 95%;
+        margin-left: 0%;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    #Footer .add_boder
+    {
+    border: none;
+    }
+    #Footer .add_boder_2
+    {
+    border: none;
+    }
+    }
+    @media only screen and (max-width:720px)
+    {
+        #Banner .banner_text .para2
+        {
+            margin-right: 17%;
+        }
+        #Last .fa-whatsapp
+    {
+        margin-left: 70%;
+    }
+    }
+
+    @media only screen and (max-width:400px){
+    
+        #Banner .banner_text
+    {
+        width: 95%;
+        top: 28%;
+    }
+
+    
+        .Bank_text h3
+    {
+    
+        width: 280px;
+        margin-left: 2%;
+        font-size: 22px;
+        margin-left: 0%;
+    }
     #Banner .banner_text .para2
     {
-        margin-right: 17%;
+        margin-right: 2%;
+    }
+
+    .high_text
+    {
+        padding: 20px 10px;
+    }
+
+    #form h1
+    {
+        padding-top: 5%;
+    }
+
+
+    #submit
+    {
+    margin-left: 60%;
+
+    }
+
+    #Plan .right
+    {
+        margin-left: 70%;
+    
+    }
+
+    /* Footer  */
+    #Footer .logo
+    {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+
+    #Footer .add_boder
+    {
+    border: none;
+    }
+    #Footer .add_boder_2
+    {
+    border: none;
     }
     #Last .fa-whatsapp
-{
-    margin-left: 70%;
-}
-}
+    {
+    
+        margin-left: 78%;
+    margin-bottom: 7px;
 
-@media only screen and (max-width:400px){
-   
-    #Banner .banner_text
-{
-    width: 95%;
-    top: 28%;
-}
+    }
 
-   
-    .Bank_text h3
-{
-   
-    width: 280px;
-    margin-left: 2%;
-    font-size: 22px;
-    margin-left: 0%;
-}
-#Banner .banner_text .para2
-{
-    margin-right: 2%;
-}
-
-.high_text
-{
-    padding: 20px 10px;
-}
-
-#form h1
-{
-    padding-top: 5%;
-}
-
-
-#submit
-{
-   margin-left: 60%;
-
-}
-
-#Plan .right
-{
-    margin-left: 70%;
-   
-}
-
-/* Footer  */
-#Footer .logo
-{
-    font-size: 50px;
-    padding: 10px;
-}
-
-
-#Footer .add_boder
-{
-   border: none;
-}
-#Footer .add_boder_2
-{
-   border: none;
-}
-#Last .fa-whatsapp
-{
-  
-    margin-left: 78%;
-   margin-bottom: 7px;
-
-}
-
-}
+    }
+    /* the ends */
